@@ -78,7 +78,7 @@ java -jar path/to/checkstyle.jar "$@"
 function to build more sophisticated logic.]],
         },
     },
-    method = require("null-ls.methods").internal.DIAGNOSTICS_ON_SAVE,
+    method = require("null-ls.methods").internal.DIAGNOSTICS,
     filetypes = { "java" },
     generator_opts = {
         args = { "-f", "sarif", "$ROOT" },
